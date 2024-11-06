@@ -1,0 +1,62 @@
+package registration.form;
+
+import java.util.Scanner;
+
+
+public class RegistrationForm {
+
+    
+    public static void main(String[] args) {
+      String Name1;
+      
+      
+      Scanner scanner;
+      scanner = new Scanner(System.in);
+      
+     System.out.print("Enter your first name: ");
+     Name1 = scanner.nextLine();
+      
+      String name2;
+      
+      System.out.print("Enter your last name: ");
+      name2 = scanner.nextLine(); 
+      
+    int age;
+    
+    System.out.print("Enter your age: ");
+    age = scanner.nextInt();
+    
+    int Idnumber;
+    
+    System.out.print("Enter your studetnt ID number: ");
+    Idnumber = scanner.nextInt();
+    
+    String enroll;
+    System.out.print("Enter the program you're enrolling in: ");
+    enroll = scanner.nextLine();
+    scanner.nextLine();
+    
+    String major;
+    System.out.print("Enter your intended major or concentration: ");
+    major = scanner.nextLine();
+    
+    int gpa;
+    System.out.print("Enter your high school GPA: ");
+    gpa = scanner.nextInt();
+    
+    String address;
+    System.out.print("Enter your address: ");
+    address = scanner.nextLine();
+    scanner.nextLine();
+    
+    String guardian;
+    System.out.print("Enter your guardian or emergency contact's full name: ");
+    guardian = scanner.nextLine();
+    
+    long guardiannumber;
+    System.out.print("Enter your guardian's contact number: ");
+    guardiannumber = scanner.nextLong();
+    
+    }
+    
+}
